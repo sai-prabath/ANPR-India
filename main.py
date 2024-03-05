@@ -26,7 +26,7 @@ while ret:
     frame_nmr += 1
     ret, frame = cap.read()
     if ret:
-        
+        results[frame_nmr] = {}
         # detect vehicles
         detections = coco_model(frame)[0]
         detections_ = []
