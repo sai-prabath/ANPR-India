@@ -1,8 +1,8 @@
 
 path: ANPR-India/data  # set root directory
 train: images/train  # images directory from path
-val: val/train  # validation directory from path
+val: val/train  # validation images directory from path (for validation)
 
 # Classes
 names:
-  0: LicPlate 
+  0: LicPlate
