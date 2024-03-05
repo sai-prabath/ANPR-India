@@ -5,4 +5,4 @@ val: val/train  # validation directory from path
 
 # Classes
 names:
-  0: LicPlate
+  0: LicPlate 
