@@ -1,7 +1,7 @@
 
 path: ANPR-India/data  # set root directory
 train: images/train  # images directory from path
-val: val/train  # images directory from path
+val: val/train  # validation directory from path
 
 # Classes
 names:
