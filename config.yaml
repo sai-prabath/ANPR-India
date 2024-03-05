@@ -1,0 +1,8 @@
+
+path: ANPR-India/data  # set root directory
+train: images/train  # images directory from path
+val: val/train  # images directory from path
+
+# Classes
+names:
+  0: LicPlate
